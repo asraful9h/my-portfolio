@@ -1,9 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
 
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: rgb(79, 70, 70);
 }
 .name-highlight{
     color: rgb(251, 17, 17);
@@ -12,8 +19,39 @@ h1{
     width: 42%;
     float: left;
     margin-right: 5%;
-    padding-left: 2%;
+    padding-left: 3%;
 }
 .half-width img{
     width : 100%
+    
+} 
+.genjam{
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 50px;
 }
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(254, 101, 101), red
+);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("imgs/side2.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 160px;
+}
+.dhuru{
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+}
+
